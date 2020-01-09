@@ -85,4 +85,16 @@ Float average(int L[], int n)
 What is a Flow Char?
 
 - used for monolithic programming
- 
+ - contains elements: start/stop, input/output, process, condition and flow of data
+
+
+Steps for Program Development and Execution?
+
+c++ ide : Turbo c++, Xcode, devcpp, eclipse and visual studio, and codeblocks
+
+1. Editing 
+	you write the program in any editor or ide
+2. Compiling 
+3. Linking Library
+4. Loading 
+5. Execution
