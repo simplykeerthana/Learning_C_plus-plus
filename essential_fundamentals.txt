@@ -42,4 +42,15 @@ Introduction to Number System:
 - Hexadecimal {0,1,2,3,4,5,6,7,8,9,A, B, C, D, E, F, base = 16
 
 What is a program?
+
+The steps to perform a task. For example evaluating an expression using an calculator. In our case, a programmable calculator.
+
+
+Low Level and High Level Languages?
+
+MachineLanguage - Binary and low-level 
+Assembly Language - low level
+
+High Level languages - c, c++, java, python, c#, VB, and etc.
+
   
