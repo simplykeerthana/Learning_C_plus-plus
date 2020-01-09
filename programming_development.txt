@@ -80,3 +80,9 @@ Float average(int L[], int n)
 	return avg;
 
 }
+
+
+What is a Flow Char?
+
+- used for monolithic programming
+ 
