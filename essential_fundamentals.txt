@@ -1,5 +1,5 @@
 
-Essential Fundamentals of C++
+Notes on Essential Fundamentals of C++
 
 1. How Computers Work?
 	Block Diagram 
@@ -77,5 +77,10 @@ Javascript is interpreter based
 What is an Operating System?
 
 
-- An operating System 
+- An operating System provides an environment for users to use the computer system. OS is an application interface that acts as an intermediary between the user and computer system.
+
+- Example, Windows, Mac OS, Linux
+
+
+_ OS manages all the resources in a computer system
 
