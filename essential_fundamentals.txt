@@ -28,7 +28,7 @@ Input Devices(memory is input buffer) / Output Devices (memory is output buffer)
 The computer is based on Binary Number System
 
 8 bits instruction 
-
+S
 0 is false 
 1 is true
 
@@ -71,4 +71,11 @@ C++ source code is a compile based language
 Javascript is interpreter based
 - if the java script is run on chrome, chrome has an interpreter for javascript 
 - It would translate line and execute. So a line-by-line execution
+
+
+
+What is an Operating System?
+
+
+- An operating System 
 
