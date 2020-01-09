@@ -53,4 +53,22 @@ Assembly Language - low level
 
 High Level languages - c, c++, java, python, c#, VB, and etc.
 
+
+Compiler vs Interpreter?
+
+Both check for errors, convert to machine code, and execution of the program
+
+Compile
   
+
+
+C++ source code is a compile based language
+
+- Each classes in the package will have its own c++ file and codes
+- then an .exe fire is created for the c++ file
+- 
+
+Javascript is interpreter based
+- if the java script is run on chrome, chrome has an interpreter for javascript 
+- It would translate line and execute. So a line-by-line execution
+
