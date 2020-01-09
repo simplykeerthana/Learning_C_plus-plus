@@ -1,0 +1,45 @@
+
+Essential Fundamentals of C++
+
+1. How Computers Work?
+	Block Diagram 
+
+Central Processing Unit (CPU)
+	
+		- the heart of the computers are CPU, that is broken down into Arithmetic unit (AU)       and Control Unit (CU). 
+
+Arithmetic Unit - process logic
+Control Unit - controls other process and utilities them 
+
+
+Hardisk 
+
+- contains files: program files(.exe files) and data files (my.text, music files)
+
+
+Main Memory (primary) 
+
+When you want to run a program, the hard disk passes the files to the main memory and then the CPU process main memory line by line to execute the instruction.
+
+
+Input Devices(memory is input buffer) / Output Devices (memory is output buffer)
+
+
+The computer is based on Binary Number System
+
+8 bits instruction 
+
+0 is false 
+1 is true
+
+
+Introduction to Number System:
+
+
+- Binary {0,1}, base 2
+- Octal {0,1,2,3,4,5,6,7}, base 8
+- Decimal {0,1,2,3,4,5,6,7,8,9}, base 10
+- Hexadecimal {0,1,2,3,4,5,6,7,8,9,A, B, C, D, E, F, base = 16
+
+What is a program?
+  
