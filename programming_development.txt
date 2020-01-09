@@ -1,0 +1,82 @@
+Notes on Programming Development
+
+
+ Programming Paradigms/Methodologies?
+
+Monolithic Programming:
+
+- the entire program will be a single-file based , one single source file. 
+- the problem is that only a single programmer can write this. Not suitable for large programs and team work
+
+
+Procedural Programming:
+
+- Multiple programmers can be used.
+- Use functions, main() function and reuse code. Like C program
+- the benefits: you can use it in multiple files
+
+Modular Programming:
+
+- using structures and functions
+- other features include that of procedural programming
+
+
+Object-Oriented:
+
+- everything is inside a class - from functions and methods, and data 
+- we create new instances of the class
+- more reusability of class
+
+Difference in programming paradigms is the structure of the code. 
+
+
+The easiest method to write programs is using C++
+
+
+What is an Algorithm?
+
+Algorithm is a step-by-step procedure for solving a computational program.
+
+- Algorithm is converted into Program. If you know how to solve a problem, you can design algorithms
+
+
+Algorithm is Psuedocode.
+
+Program is syntax of a programming language.
+
+- we use existing algorithms and write programs to manipulate. So it is vice to learn how to design algorithms first.
+
+
+Example algorithm and program.
+
+
+Algorithm:
+
+Algorithm Average(list, n)
+{
+	sum <- 0
+	for each element in x in 
+	Begin
+		sum <- sum + x
+	End;
+	
+	avg <- sum/n
+
+	return 0
+}
+
+Program:
+
+Float average(int L[], int n)
+{
+	float sum = 0.0;
+	
+	for(I=0, I < n, I++)
+	{
+		sum = sum + L[I];
+	}
+	float avg= sum/n;
+
+	return avg;
+
+}
