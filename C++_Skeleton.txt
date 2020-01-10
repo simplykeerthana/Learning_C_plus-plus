@@ -69,3 +69,23 @@ Int main()
 	return 0;
 }
 
+
+
+Data types: int, string. 
+
+A program to read in a name with multiple words
+
+
+#include <iostream>
+Using namespace std;
+
+int main()
+{
+	string name;
+	cout << "May I have your name";
+	gettine (can, name)l // get line to read multiple words
+	cout <<" your name I s" << name;
+
+	return 0;
+}
+
