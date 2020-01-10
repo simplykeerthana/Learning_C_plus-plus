@@ -1,0 +1,71 @@
+The skeleton of C++.
+
+
+First PrograM: 
+
+- You save the files as .cpp. 
+
+
+
+Always include a #include <iostream>
+
+Using namespace std; // have to use this to not include std:: 
+
+//main function.
+
+int main()
+{
+
+	std::cout<<"hello world";
+
+
+Return 0;
+}
+
+
+Cout = Control out to output something to the screen in C++
+Cin = for input from the user
+
+The shift operator << is an insertion operator.
+The shift operation >> to read in values from the user
+
+
+
+Writing my first Program?
+
+Every program has an input, process, and a output.
+
+ 
+Program to add two numbers. 
+
+Start -> print enter 2 number, read a, b -> c <- a + b -> print 'addition = ", c -> end program
+
+
+Algorithm ADD
+
+Begin
+	Print "Enter 2 no"
+	Read a, b
+	c <- a + b
+	  
+	print addition is "c"
+
+END
+
+
+Program:
+
+#include <iostream>
+using namespace std;
+
+Int main()
+{
+	int a, b, c, ;
+	cout <<"enter two number";
+	cin>>a>>b;
+	c = a + b;
+	cout << "the result is " << c;
+	
+	return 0;
+}
+
