@@ -3,4 +3,15 @@ This section is about data types in C++
 
 Why Data Types?
 
- Data - numeric,
+Types of Data: 
+	Numeric: int, float
+	Character/Alphabetic(125-A): character, string
+
+The data types have to be stores in memory for it to work
+
+
+1 byte = 8 bits (0-255 numbers are allowed to store)
+
+Variables are used for storing data.
+
+
