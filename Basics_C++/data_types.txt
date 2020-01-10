@@ -14,4 +14,32 @@ The data types have to be stores in memory for it to work
 
 Variables are used for storing data.
 
+All the Data types are availables in C++.
+
+Primitive(compiler provided) - Integral (no decimal point), boolean ( true or false), and Floating point -> float and double
+
+User Define Data Types:enum, structure, union and class
+
+Derived : array, pointer and reference
+
+
+Datta Type Size and Ranges:
+
+int, 2 0r 4
+float, 4,, -3.4e^-38 to 3.9e38
+double, 8, 1.7 e^-308 to 1.7e308
+Char,  -128 to 127
+Bool , undefined, true or false
+
+
+Modifiers 
+
+Unsigned int (0-65535) - both positive and negative 
+ 
+Unsigned char (0-255)
+
+Long int - 4 bytes, 8 bytes
+
+Long double  -- 10 bytes
+
 

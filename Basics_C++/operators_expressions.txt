@@ -1,0 +1,90 @@
+Operators and Expressions
+
+
+Arithmetic = +,-,* /, %
+
+Relational = <,<=, >, >=, ==
+
+Logical = &&, !, !!, 
+
+Bitwise = &, !,  ~. ^
+
+Incremen/Decrement = ++, --
+
+Assignment = , =
+
+
+Examples
+
+Int a = 13, b = 5;
+
+Float c = 23.4
+
+C = (float)a/b;
+
+C = a % b
+
+Char Key = 'K', b = 5, c;
+
+Precedence and Expressions 
+
+
+Operator Assumed Precedent (only few examples)
+
+()->3
+*,/, %, -> 2
++, - -> 1
+
+ Ex expressions
+	x = a+b*c-d/e
+	x = (a+b) * (c-d)/e
+
+
+
+Example Math Formula's 
+
+
+Area of Triangle  a = 1/2bh
+
+In c++ a = (b*h)/2 
+
+Perimeter of Rectangle = p = 2 * (l+B)
+
+
+Sum of n terms = s = n*(n+1)/2
+
+#include <cmath>
+
+Quadratic formula e = b + sqrt(b*b -4*a*c)
+
+
+
+Program for Area of Triangle
+
+Start -> print'Enter base and height" Read b, h -> a = (b*h)/2 -> print "Area is ", a -> stop 
+
+Algorithm Area
+Begin 
+	print " Enter base and height"
+	Read b, h
+	a <- (b*h)/2
+	print "Area is ", a
+END 
+
+C++ program
+
+#inclue <iostream>
+Using namespace std;
+
+Int main()
+{
+	
+	float a, b, h;
+	cout <<"enter base and height";
+	cin >>b>>h;
+	a = (b*h)/2;
+	cout << "Area is " << a
+
+	return 0
+
+}

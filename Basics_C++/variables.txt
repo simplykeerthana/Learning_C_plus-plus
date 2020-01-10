@@ -1,0 +1,16 @@
+Variables?
+
+
+Variables store of some data type stores values. 
+
+For ex. Int rollno; 
+
+	rollno = 10; // when you run the program the variable gets initialized in memory
+
+
+	char group = 'A'
+	
+	float price = 5.43f; // to declare a float value, if you don't write then it will be read as double
+
+TO declare variable names: camelcase and meaningful names 
+
