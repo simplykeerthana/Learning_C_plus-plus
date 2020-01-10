@@ -1,0 +1,6 @@
+This section is about data types in C++
+
+
+Why Data Types?
+
+ Data - numeric,
