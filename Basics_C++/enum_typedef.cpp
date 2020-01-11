@@ -23,12 +23,15 @@ enum days {mon, tue, wed, thu, fri, sat, sun};
 using namespace std;
 
 enum day{mon, tue, wed, thu, fri, sat, sun};
+enum dept{ cs = 1, it, ec, mech};
 
 int main()
 {
     
     day d;
     d = mon;
+
+    dept = dep = c;
 
     cout<<mon << tue << endl;
 
