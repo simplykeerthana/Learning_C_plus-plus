@@ -1,0 +1,7 @@
+Compound Assignment 
+
+Int a = 10, b = 5, c = 15;
+
+Compound assignment 
+
++=, -=, *=, /=, %=, &=, !=, <<=, >>=
