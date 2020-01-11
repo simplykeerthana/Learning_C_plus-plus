@@ -1,7 +1,14 @@
 Compound Assignment 
 
-Int a = 10, b = 5, c = 15;
+
 
 Compound assignment 
 
 +=, -=, *=, /=, %=, &=, !=, <<=, >>=
+
+Int a = 10, b = 5, c = 15;
+Int sum = 5
+
+You can do sum =+10
+	or sum *=10
+	or sum /=10
