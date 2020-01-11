@@ -11,7 +11,6 @@ using namespace std;
 
 int main()
 {
-
     float basic, percent_allow, percent_deduct, net_salary;
 
     cout<<"Enter your basic salary: ";
