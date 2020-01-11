@@ -31,7 +31,7 @@ int main()
     day d;
     d = mon;
 
-    dept = dep = c;
+    dept dep = cs;
 
     cout<<mon << tue << endl;
 
