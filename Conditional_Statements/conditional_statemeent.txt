@@ -1,4 +1,6 @@
-Conditional Statements
+Conditional Statements: notes, sample programs and algorithms
+
+
 
 
 If (pass)
@@ -60,7 +62,7 @@ Int main()
 // you use cout <<"Hello<< ends;
 
 
-// a program to check whether a roll number is valid or not 
+// a program to check whether a roll number is valid or not, with a simple conditional statement
 
 #include <iostream>
 
@@ -85,4 +87,24 @@ Int main()
 	return 0;
 }
 
-         
+
+// a program that checks division by zero error
+
+#include <iostream>
+
+Using namespace std;
+
+Int main()
+{
+	cout " enter 2 numbers";
+	cin >> a >> b;
+
+	if (b==0)
+		cout << "Division by Zero";
+	c = a/b;
+
+
+ 	return 0;
+}
+
+Logical Operators - Compound Statements you use truth tables to prove for AND, OR. and NOT
