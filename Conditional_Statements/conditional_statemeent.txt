@@ -108,3 +108,71 @@ Int main()
 }
 
 Logical Operators - Compound Statements you use truth tables to prove for AND, OR. and NOT
+
+
+// Nested If
+
+if(condition)
+{
+    if(conditon)
+    {
+    
+    }
+    else
+    {
+    
+    }
+
+
+}
+
+// example of finding max of 3 numnbers a,b,c using nested IF
+
+
+Flowchart
+
+START -> print "Enter 3 no" read(a,b,c) -> condition(a>b and a > c), if true, print a -> condition(b>c), if true, print b else print c -> STOP
+
+ALGORITHM
+
+if (a>c && a >c)
+{
+    a is greater;
+}
+elseif(b>c)
+    {
+      b is greater;
+    }
+    else
+    {
+        c is greater;
+    }
+
+
+
+C++ prgram
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    cout << "Enter 3 numbers" << endl;
+    cin >> a >> b >> c;
+    
+    if(a>b && a>c)
+    {
+        cout << b;
+    }
+    else if (b>c)
+    {
+        cout << b;
+    }
+    else
+    {
+        cout << c;
+    }
+}
+
