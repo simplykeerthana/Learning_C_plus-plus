@@ -57,4 +57,32 @@ Int main()
 	return 0
 }
 
+// you use cout <<"Hello<< ends;
+
+
+// a program to check whether a roll number is valid or not 
+
+#include <iostream>
+
+Using namespace std;
+
+Int main()
+{
+
+	cout << " Enter your roll number";
+	cin >> roll;
+	
+	if(roll < 1)
+	{
+		cout << "Invalid roll";
+	}
+	else
+	{
+		cout << "Valid";
+	}
+
+	
+	return 0;
+}
+
          
