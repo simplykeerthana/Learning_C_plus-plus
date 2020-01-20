@@ -176,3 +176,18 @@ int main()
     }
 }
 
+// Find Nature of Quadratic Roots
+
+Quadratic Equation
+
+ax^2 + bx + c = 0
+
+roots = (-b +- sqrt(b^2 - 4ac))/2a
+
+Discriminant
+
+d = b^2 - 4ac
+
+if d = 0, real and equal
+if d > 0, real and unequal
+if d < 0, imaginary 
