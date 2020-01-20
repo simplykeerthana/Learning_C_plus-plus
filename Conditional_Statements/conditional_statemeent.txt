@@ -1,0 +1,60 @@
+Conditional Statements
+
+
+If (pass)
+   Graduate
+Else
+	fail
+
+False - 0
+
+True - 1
+
+- all the relational operator either gives true or false answers
+
+
+Finding Maximum of Two number (if x > y) 
+
+Input - Process - Output
+
+
+Flow chart
+
+START - print(enter two numbers) -> condition ( x > y) if true x is greater else y is greater.  
+
+Algorithm MAX 
+
+Begin 
+	print "Enter two no "
+	Read x, y
+	if x > y then 
+		print "Max is" X;
+	else 
+		print "Max is" Y;
+	end
+END
+
+
+C++ Program
+
+#include <iostream>
+Using namespace std;
+
+Int main()
+{
+	int x, y;
+	cout << "Enter 2 no"
+	cin >> x >>y;
+	if (x > y) 
+	{
+		cout >> "Max is " x;
+	}
+	else
+	{
+		cout << "Max is " << y;
+	}
+	
+	return 0
+}
+
+         
