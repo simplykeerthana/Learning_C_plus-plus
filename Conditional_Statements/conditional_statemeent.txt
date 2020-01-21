@@ -272,5 +272,18 @@ MAIN
     
     
 - once the block ends, all the memory inside the block is gone.
-- in c++ 17 you create new variable inside conditional statements. 
+- in c++ 17 you create new variable inside conditional statements.
 
+*** Switch Cases - Branch and Control****
+
+switch (expression)
+{
+    case 1:
+    
+            break;
+            
+    case 2:
+            break;
+            
+        default;
+}
