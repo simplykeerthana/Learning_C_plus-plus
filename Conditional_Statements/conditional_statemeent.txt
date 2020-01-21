@@ -190,4 +190,46 @@ d = b^2 - 4ac
 
 if d = 0, real and equal
 if d > 0, real and unequal
-if d < 0, imaginary 
+if d < 0, imaginary
+
+
+// Another example
+Display Grades
+
+total = m1 + m2 + m3;
+Avg = total /3;
+
+criteria
+
+Grade:
+
+A = avg >= 60
+B = 35 < Avg < 60
+
+int main()
+{
+    int m1,m2,m3, Total;
+    
+    float avg;
+    
+    cout << "Enter the 3 subject marks ";
+    cin >> m1 >> m2 >> m3;
+    
+    Total = m1 + m2 + m3;
+    
+    Avg = Total/3;
+    
+    if(avg >= 60)
+    {
+        cout << "A" << endl;
+    }
+    else if(avg >=35 and avg <=60)
+    {
+        cout << "B" << endl;
+        
+    }
+    else
+    {
+        cout << "C" << endl;
+    }
+}
