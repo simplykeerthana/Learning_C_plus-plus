@@ -255,3 +255,12 @@ int main()
     
     
 }
+
+**** Short Circuit *****
+
+for &&, you have to check if both cases to be true
+for ||, if the first case is
+
+**** Dynamic Declaration ****
+
+
