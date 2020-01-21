@@ -233,3 +233,16 @@ int main()
         cout << "C" << endl;
     }
 }
+
+//else if Ladder
+    //example to display the name of the day based on the day number
+    
+    
+    int main()
+    {
+    int day;
+    cout << "Enter day number";
+    cin >> day;
+    
+    
+}
