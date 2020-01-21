@@ -244,5 +244,14 @@ int main()
     cout << "Enter day number";
     cin >> day;
     
+    if(day == 1)
+    {
+        cout << "Mon"<<endl;
+    }
+    else if(day == 2)
+    {
+        cout << "Tues" << endl; // and so on
+    }
+    
     
 }
