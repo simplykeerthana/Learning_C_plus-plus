@@ -264,3 +264,13 @@ for ||, if the first case is
 **** Dynamic Declaration ****
 
 
+HEAP
+STACK
+
+MAIN
+    CODE
+    
+    
+- once the block ends, all the memory inside the block is gone.
+
+
