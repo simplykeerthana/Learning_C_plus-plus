@@ -1,0 +1,80 @@
+**** Loops in C++ , iterative
+
+1. While
+2. Do While
+3. For
+4. For Each
+
+While(condition)
+{
+    process;
+}
+
+do
+{
+    process;
+    while(condtion)
+}
+
+
+// exmaple prorgram to loop through n numbers and print it
+
+int main()
+{
+    int n, i =1;
+    
+    cout <<" enter n" ;
+    cin >> n;
+    
+    while(i<=n)
+    {
+            cout << i << endl;
+            i++;
+    }
+}
+
+// do while
+
+int main()
+{
+    int n, i =1;
+    
+    cout <<" enter n" ;
+    cin >> n;
+    
+    do
+    {
+            cout << i << endl;
+            i++;
+    } while(i<=n)
+}
+
+
+// for loop, if you know the number of times you want to repeat use for -loop
+// its called a counter based loop
+
+for(initializatin, condition, updation)
+{
+
+}
+
+
+int main()
+{
+    int n, i;
+    
+    cout << "Enter n" << endl;
+    cin >> n;
+    
+    for( i = 1; i<=n; i++)
+    {
+        cout << i<< endl;
+    }
+    
+    return 0;
+}
+
+// infinite loop, is like for(;;) will run non-stop
+
+
+// example multiplication table. 
