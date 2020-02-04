@@ -102,4 +102,42 @@ int main()
 }
 
 
-// another example to find the sum of natural numberrs 
+// another example to find the sum of natural numbers
+
+
+sum of natural numbers
+
+n(n+1)/2 is the formula
+
+Flowchart = Start -> print "Enter n", Read n -> i = 1, sum = 0 -> i<=n -> sum = sum + i, i = i + 1 -> print sum -> STOP
+
+
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45
+
+
+// path to deducing the algorithm
+1 = 0+ 1  = 1
+2 = 1 + 2 = 3
+3 = 3 _ 3 = 6
+
+n  = n + n-1
+
+
+int main()
+{
+    int n, i =1, sum = 0;
+    
+    cout << "Enter n: ";
+    cin >> n;
+    
+    while(i<=n)
+    {
+    
+        sum +=i;
+        i++
+    }
+
+cout << "Sum N no is " << sum;
+
+return 0;
+}
