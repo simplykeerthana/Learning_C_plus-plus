@@ -100,3 +100,6 @@ int main()
 
     return 0;
 }
+
+
+// another example to find the sum of natural numberrs 
