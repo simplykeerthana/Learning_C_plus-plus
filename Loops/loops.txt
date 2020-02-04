@@ -78,3 +78,25 @@ int main()
 
 
 // example multiplication table. 
+
+you can use a loop and solve the porblem of multiplication table.
+
+Flowchart: start -> Print "Enter n", Read n -> i = 1 -> condition i <=10 -> print i * n -> i = i + 1 = > stop
+
+
+
+int main()
+{
+    int n, i;
+    
+    cout << "Enter n";
+    cin >>n;
+    
+    for(int i = 0; i<=10, i++)
+    {
+        count << n << " x " << i << " = " << i*n << endl;
+        
+    }
+
+    return 0;
+}
