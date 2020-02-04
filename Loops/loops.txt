@@ -141,3 +141,32 @@ cout << "Sum N no is " << sum;
 
 return 0;
 }
+
+
+// another example Factorial of a Number
+
+n = 6
+n! = 1*2*3*4*5*6 = 720
+
+so when 1 = 1*1 = 1
+        2 = 1*2 = 2
+        3 = 2 *3 = 6
+        
+int main()
+{
+
+    int n, i, fact=1;
+    
+    cout << "Enter n: ";
+    cin >> n;
+    
+    for(i=0, i<=n, i++)
+    {
+    
+        fact *=i;
+    }
+    
+    cout << "The Factorial of " << n  << " is " << fact;
+
+    return 0;
+}
