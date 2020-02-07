@@ -170,3 +170,10 @@ int main()
 
     return 0;
 }
+
+
+// factors of a Number:
+
+
+start -> " Print "Enter n" Read N -> i = 1 -> if (i<=n) F stop, T n %1==0, - > i + 1;
+
