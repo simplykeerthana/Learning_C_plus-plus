@@ -177,3 +177,4 @@ int main()
 
 start -> " Print "Enter n" Read N -> i = 1 -> if (i<=n) F stop, T n %1==0, - > i + 1;
 
+
