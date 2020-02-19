@@ -178,3 +178,10 @@ int main()
 start -> " Print "Enter n" Read N -> i = 1 -> if (i<=n) F stop, T n %1==0, - > i + 1;
 
 
+So when I if(n % i ==0)
+
+if(8 % 1 == 0) then print 1
+if(8 % 2 == 0) then print 2
+if(8 % 3 == 2) then print nothing 
+
+
