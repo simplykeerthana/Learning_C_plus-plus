@@ -258,6 +258,44 @@ N = 8 factors 1,2,4,8 - not prime\
 N = 13, factor 1, 13 prime\
 \
 \
+// displaying digits of  a number\
+\
+\
+if n = 1724 \
+\
+1724 % 210 = 4\
+1724 /10 = 172\
+172 % 10 = 2\
+172/10= 17\
+17 % 10 =  7\
+17 / 2 = 1\
+1/10 = 0\
+\
+\
+int main()\
+\{\
+\
+	int n, r; \
+\
+	cout << "Enterr n" ;\
+\
+	cin >> n; \
+\
+\
+while(n>0)\
+\{\
+	r = n %10;\
+	n = n/10;\
+	cout << r << endl;\
+\
+\}\
+\
+\
+return 0\
+\
+\}\
+\
+\
 \
 \
 \
