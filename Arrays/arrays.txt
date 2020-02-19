@@ -32,3 +32,25 @@ Int main()
 }
 
 // you can use auto function but that is with c++17
+
+// sum of the array elements
+
+
+
+Int main()
+{
+
+
+	int A[7] = {4,8,6,9,5,2,7};
+	int n=7, sum = 0;
+
+	for(int I = 0; I<7; I++)
+	{
+		sum = sum + A[I];
+	}
+
+	cout << "Sum is " << sum;
+
+	return 0;
+
+} 
