@@ -31,3 +31,4 @@ Int main()
 
 }
 
+// you can use auto function but that is with c++17

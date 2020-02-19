@@ -12,11 +12,18 @@ int main()
         cout << A[i] << endl;
     }
     
-    // for range loop
+    // for each loop
     cout << "\n" << endl;
     for( int x:A)
     {
           cout << x << endl;
+    }
+    
+    // for each loop to change the value of the elements
+    cout << "\n" << endl;
+    for( int &x:A)
+    {
+          cout << ++x << endl;
     }
     
     return 0;
