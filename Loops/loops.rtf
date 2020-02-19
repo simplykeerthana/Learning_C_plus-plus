@@ -358,4 +358,32 @@ while(n>0)\
 return 0\
 \
 \}\
+\
+// a program to find the gcd of two numbers\
+\
+M = 30, n = 21\
+\
+Int main()\
+\{\
+	int m,n;\
+	cout << \'93Enter two numbers\'94;\
+	cin >> m >> n;\
+	while (m!=n)\
+	\{\
+		if(m>n)\
+		\{\
+			m = m-n;\
+		\}\
+		else if(n>m)\
+		\{\
+			n = n-m;\
+		\}\
+	\}\
+	\
+	cout <<\'93GCD is : \'94 << m << endl; \
+\
+Return 0\
+\}\
+\
+\
 }
