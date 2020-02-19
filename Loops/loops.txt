@@ -203,3 +203,35 @@ int main()
 
 }
 
+// finding perfect number for finding value n 
+
+
+
+So when I if(n % i ==0)
+
+if(8 % 1 == 0) then print 0 + 1  = 1
+if(8 % 2 == 0) then print 1+ 2 = 3
+if(8 % 3 == 2) then print nothing 
+if(8 % 4 == 0) then print 3 + 4 = 7
+
+int main()
+{
+
+	int n, i;
+	
+	cout << "Enter n";
+	cin >> n;
+	
+	for(int i =1; i<=n; I++)
+	{
+		if(n%I == 0)
+			cout << i <<end;
+	}
+
+
+	return 0
+
+}
+
+
+
