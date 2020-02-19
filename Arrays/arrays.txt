@@ -49,7 +49,7 @@ Int main()
 		sum = sum + A[I];
 	}
 
-	cout << "Sum is " << sum;
+	cout << "Sum is: " << sum;
 
 	return 0;
 
