@@ -1,3 +1,32 @@
 >>>>>>> Arrays <<<<<<
 
 
+Int main ()
+{
+	int A[5] = {2,4,6,8,10}
+
+	cout << A[0];
+
+	cout << a[1]; // and so on you have to continue for each elements. 
+
+
+	return 0;
+
+}
+
+
+// array declarations 
+
+Int main()
+{
+	int A[] = {2,4,6,7,10,12};
+	
+	for(int i = 0; I<6; I++)
+	{
+		cout << A[i] << endl;
+	}
+
+	return 0;
+
+
+}
