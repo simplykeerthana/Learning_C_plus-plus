@@ -295,6 +295,39 @@ return 0\
 \
 \}\
 \
+// check for armstrong number\
+\
+\
+ the sum of the cubes of the digits of the number is the same, known as the armstrong numberr. \
+\
+\
+int main()\
+\{\
+\
+	int n, r, sum = 0, m; \
+\
+	cout << "Enterr n" ;\
+\
+	cin >> n; \
+m = n\
+\
+while(n>0)\
+\{\
+	r = n %10;\
+	n = n/10;\
+	sum = sum + r * r * r;\
+	cout << r << endl;\
+\
+\}\
+\
+if(sum == m) \
+	cout << "It's an armstrong number";\
+else\
+	cout << "not armstrong";\
+\
+return 0\
+\
+\}\
 \
 \
 \
