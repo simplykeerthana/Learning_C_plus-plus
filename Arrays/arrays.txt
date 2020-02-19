@@ -82,3 +82,41 @@ Int main()
 	return 0;
 
 }
+
+
+
+// Linear Search , searching for a key in an array or soemthing
+
+int main()
+{
+
+
+	int A[7] = {4,8,6,9,5,2,7};
+	int n=7, sum = 0;
+
+	max = A[0];
+
+	cout << "Enter the key" ;
+	Cin >> key; 
+
+	for(int I = 0; I<7; I++)
+	{
+		if(key ==A[I])
+		{
+			cout << "found at " <<I;
+			return 0;
+		}
+
+	}
+	
+
+	cout << "Key not found ";
+	return 0;
+
+}
+
+
+
+
+
+
