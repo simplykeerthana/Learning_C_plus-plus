@@ -53,4 +53,32 @@ Int main()
 
 	return 0;
 
-} 
+}
+
+
+// finding the max number in a array
+
+
+ Int main()
+{
+
+
+	int A[7] = {4,8,6,9,5,2,7};
+	int n=7, sum = 0;
+
+	max = A[0];
+
+	for(int I = 0; I<7; I++)
+	{
+		if(A[i] > max)
+		{
+			max = A[I]
+		}
+
+	}
+
+	cout << "Maximum no is " << max;
+
+	return 0;
+
+}
