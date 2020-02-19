@@ -12,7 +12,12 @@ int main()
         cout << A[i] << endl;
     }
     
-    
+    // for range loop
+    cout << "\n" << endl;
+    for( int x:A)
+    {
+          cout << x << endl;
+    }
     
     return 0;
 }
