@@ -1,0 +1,264 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww28600\viewh18000\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 **** Loops in C++ , iterative\
+\
+1. While\
+2. Do While\
+3. For\
+4. For Each\
+\
+While(condition)\
+\{\
+    process;\
+\}\
+\
+do\
+\{\
+    process;\
+    while(condtion)\
+\}\
+\
+\
+// exmaple prorgram to loop through n numbers and print it\
+\
+int main()\
+\{\
+    int n, i =1;\
+    \
+    cout <<" enter n" ;\
+    cin >> n;\
+    \
+    while(i<=n)\
+    \{\
+            cout << i << endl;\
+            i++;\
+    \}\
+\}\
+\
+// do while\
+\
+int main()\
+\{\
+    int n, i =1;\
+    \
+    cout <<" enter n" ;\
+    cin >> n;\
+    \
+    do\
+    \{\
+            cout << i << endl;\
+            i++;\
+    \} while(i<=n)\
+\}\
+\
+\
+// for loop, if you know the number of times you want to repeat use for -loop\
+// its called a counter based loop\
+\
+for(initializatin, condition, updation)\
+\{\
+\
+\}\
+\
+\
+int main()\
+\{\
+    int n, i;\
+    \
+    cout << "Enter n" << endl;\
+    cin >> n;\
+    \
+    for( i = 1; i<=n; i++)\
+    \{\
+        cout << i<< endl;\
+    \}\
+    \
+    return 0;\
+\}\
+\
+// infinite loop, is like for(;;) will run non-stop\
+\
+\
+// example multiplication table. \
+\
+you can use a loop and solve the porblem of multiplication table.\
+\
+Flowchart: start -> Print "Enter n", Read n -> i = 1 -> condition i <=10 -> print i * n -> i = i + 1 = > stop\
+\
+\
+\
+int main()\
+\{\
+    int n, i;\
+    \
+    cout << "Enter n";\
+    cin >>n;\
+    \
+    for(int i = 0; i<=10, i++)\
+    \{\
+        count << n << " x " << i << " = " << i*n << endl;\
+        \
+    \}\
+\
+    return 0;\
+\}\
+\
+\
+// another example to find the sum of natural numbers\
+\
+\
+sum of natural numbers\
+\
+n(n+1)/2 is the formula\
+\
+Flowchart = Start -> print "Enter n", Read n -> i = 1, sum = 0 -> i<=n -> sum = sum + i, i = i + 1 -> print sum -> STOP\
+\
+\
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45\
+\
+\
+// path to deducing the algorithm\
+1 = 0+ 1  = 1\
+2 = 1 + 2 = 3\
+3 = 3 _ 3 = 6\
+\
+n  = n + n-1\
+\
+\
+int main()\
+\{\
+    int n, i =1, sum = 0;\
+    \
+    cout << "Enter n: ";\
+    cin >> n;\
+    \
+    while(i<=n)\
+    \{\
+    \
+        sum +=i;\
+        i++\
+    \}\
+\
+cout << "Sum N no is " << sum;\
+\
+return 0;\
+\}\
+\
+\
+// another example Factorial of a Number\
+\
+n = 6\
+n! = 1*2*3*4*5*6 = 720\
+\
+so when 1 = 1*1 = 1\
+        2 = 1*2 = 2\
+        3 = 2 *3 = 6\
+        \
+int main()\
+\{\
+\
+    int n, i, fact=1;\
+    \
+    cout << "Enter n: ";\
+    cin >> n;\
+    \
+    for(i=0, i<=n, i++)\
+    \{\
+    \
+        fact *=i;\
+    \}\
+    \
+    cout << "The Factorial of " << n  << " is " << fact;\
+\
+    return 0;\
+\}\
+\
+\
+// factors of a Number:\
+\
+\
+start -> " Print "Enter n" Read N -> i = 1 -> if (i<=n) F stop, T n %1==0, - > i + 1;\
+\
+\
+So when I if(n % i ==0)\
+\
+if(8 % 1 == 0) then print 1\
+if(8 % 2 == 0) then print 2\
+if(8 % 3 == 2) then print nothing \
+\
+int main()\
+\{\
+\
+	int n, i;\
+	\
+	cout << "Enter n";\
+	cin >> n;\
+	\
+	for(int i =1; i<=n; I++)\
+	\{\
+		if(n%I == 0)\
+			cout << i <<end;\
+	\}\
+\
+\
+	return 0\
+\
+\}\
+\
+// finding perfect number for finding value n \
+\
+\
+\
+So when I if(n % i ==0)\
+\
+if(8 % 1 == 0) then print 0 + 1  = 1\
+if(8 % 2 == 0) then print 1+ 2 = 3\
+if(8 % 3 == 2) then print nothing \
+if(8 % 4 == 0) then print 3 + 4 = 7\
+\
+int main()\
+\{\
+\
+	int n, I, sum = 0;\
+	\
+	cout << "Enter n";\
+	cin >> n;\
+	\
+	for(int i =1; i<=n; I++)\
+	\{\
+		if(n%I == 0)\
+			sum = sum + i;\
+	\}\
+\
+	\
+if(2*n == sum)\
+\{\
+	cout << "perfect no";\
+\}\
+else\
+\{\
+	cout << "not perfect no";\
+\}\
+\
+	return 0\
+\
+\}\
+\
+\
+// if prime number or not\
+\
+If a number is divisible by 1 or itself is a prime number\
+\
+N = 8 factors 1,2,4,8 - not prime\
+N = 13, factor 1, 13 prime\
+\
+\
+\
+\
+\
+}
