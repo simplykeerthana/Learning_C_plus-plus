@@ -153,4 +153,11 @@ while(low <=high)
 Cout << "not found";
 
 
+//2d Arrays
+
+Int A[2][3] // means two rows and three columns
+
+
+
+
 
